@@ -1,1 +1,106 @@
+#main {
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  height: 500px;
+}
+
+#display {
+  border: 3px solid black;
+  border-radius: 3px;
+  position: absolute;
+  top: 20px;
+  left: 125px;
+  width: 300px;
+  height: 48px;
+  background-color: #a18bb5;
+}
+
+#area { 
+  position: absolute;
+  top: 80px;
+  left: 125px;
+  width: 430px;
+  height: 300px;
+}
+
+#pad {
+  position: absolute;
+  width: 300px;
+  height: 298px;   
+}
+
+
+#pad span { /*all the span tags in numPad, or 00, =, and 1 - 9*/
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: orange;
+  padding: 13px;
+  margin: 5px;
+  font-family: 'Bowlby One', cursive;
+  position: relative;
+  left: 25px;
+  top: 43px;
+}
+
+#pad #doubleZeroKey {
+  padding: 13px 8px 13px;
+}
+
+#pad #decimalKey {
+  padding: 13px 15px 13px;
+}
+
+#operators { /*parent is 'pad'*/
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  height: 240px;
+  width: 80px;
+}
+
+#operators span {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: orange;
+  font-family: 'Bowlby One', cursive;
+  padding: 4px 12px 4px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+#operators #plusOp {
+  padding: 5px 11px 5px;
+}
+
+#operators #equalsOp {
+  padding: 5px 11px 5px;
+  background-color: red;
+}
+
+#buttons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 121px;
+  height: 298px;
+}
+
+#buttons span {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: orange;
+  font-family: 'Bowlby One', cursive;
+  font-size: 15px;
+  font-style: italic;
+  position: relative;
+  top: 25px;
+  left: 5px;
+  padding: 3px 10px 3px;
+}
+
+#buttons #clearBtn {
+  background-color: red;
+}
 
